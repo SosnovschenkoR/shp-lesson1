@@ -105,6 +105,10 @@ public class MainActivity extends Activity /*implements OnClickListener*/ implem
         jokesListView.setAdapter(jokes);
 	}	
 		
+	/*
+	 * AsynkTask activity
+	 * 
+	 */
 	private class ParseBashLink extends AsyncTask<String, Void, Void> {
 		protected Void doInBackground(String... urls) {			
 			Document doc = null;
