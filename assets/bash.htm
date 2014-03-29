@@ -1,0 +1,579 @@
+<!doctype html>
+<html id="godtier">
+<head>
+	<title>Цитатник Рунета</title>
+
+	
+	<meta charset="windows-1251" />
+
+	<link href="http://s.bash.im/reset.css" type="text/css" rel="stylesheet" />
+	<meta name="format-detection" content="telephone=no">
+				<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+	<link href="http://s.bash.im/bor25.css?20121210" type="text/css" rel="stylesheet" />
+		
+		<link rel="alternate" title="Цитатник Рунета - bash.im" href="http://bash.im/rss/" type="application/rss+xml">
+
+				<link rel="next" href="/index/893" />		
+	
+	
+	<script type="text/javascript" src="http://yandex.st/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="http://s.bash.im/jquery-ui-1.9.2.dp.min.js"></script>
+	<link href="http://s.bash.im/jquery-ui-1.9.2.dp.min.css" rel="stylesheet" />
+	<script type="text/javascript" src="http://s.bash.im/easing.js"></script>
+
+	<script type="text/javascript" src="http://s.bash.im/bor.js"></script>
+
+	<script type="text/javascript" src="http://yandex.st/json2/2011-10-19/json2.min.js"></script>
+	<script type="text/javascript" src="http://s.bash.im/jq.co.js"></script>
+	<script type="text/javascript">
+    $(document).ready(function() {
+        
+        $.cookie('ls_index', JSON.stringify({'ts': 1392317360, 'cnt': 44673, 'id': 426789}), { expires: 14, path: '/'});
+        
+
+        
+        var ls_comics = JSON.parse($.cookie('ls_comics'));
+        var d = 1022 - ls_comics['cnt'];
+        if (d > 0) $('#menu-comics').after(' <em class="hot">' + d + '</em>');
+        
+
+        
+        var ls_abyssbest = JSON.parse($.cookie('ls_abyssbest'));
+        var d = 2343 - ls_abyssbest['cnt'];
+        if (d > 0) $('#menu-abyssbest').after(' <em class="hot">' + d + '</em>');
+        
+    });
+</script>
+	<script type="text/javascript" src="http://yandex.st/share/share.js" charset="utf-8"></script>
+	
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3271837-1']);
+  _gaq.push(['_setDomainName', 'bash.im']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</head>
+<body>
+
+
+<div id="xsite-nav">
+	<a href="/" class="current"><img src="http://s.bash.im/img/icon-bor.gif" width="16" height="16" />bash.im</a>
+	<a href="http://ithappens.ru/"><img src="http://s.bash.im/img/icon-ith.gif" width="16" height="16" />ithappens.ru</a>
+	<a href="http://zadolba.li/"><img src="http://s.bash.im/img/icon-zdb.gif" width="16" height="16" />zadolba.li</a>
+</div><img src="http://o.hai.lolwut.ru/" width="0" height="0" style="visibility: hidden; position: absolute; top: 0; left: 0;" />
+
+
+<div id="body">
+
+	<div id="header">
+		<img src="http://s.bash.im/logo.gif" width="300" height="40" alt="bash.im" />		<h1>bash.im&nbsp;— Цитатник&nbsp;Рунета</h1>
+	</div>
+
+	
+	<div id="menubar">
+	<div style="float: right; clear: right; margin-left: 30px; width: 240px; height: 180px;"><div id="lmtq1eelx2">
+		<script language='JavaScript' type='text/javascript' src='http://lol.bash.im/b/adx.js'></script>
+		<iframe src="http://lol.bash.im/_ad.php?zone=zone:1" allowtransparency="true" style="background-color:#fff;" width="240" height="180" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"><a href='http://lol.bash.im/b/adclick.php?n=a8222a36' target='_blank'><img src='http://lol.bash.im/b/adview.php?what=zone:1&amp;n=a8222a36' border='0' alt=''></a></iframe>
+			</div></div>
+	<div class="submenu">
+	<span class="title">Цитаты:</span>
+	<div class="options">
+		<span class="nowrap"><a href="/" class="current" id="menu-index">новые</a>
+		<a href="/random">случайные</a>
+		<a href="/best">лучшие</a>
+		<a href="/byrating">по рейтингу</a></span>
+		<span class="nowrap"><a href="/abyss">Бездна</a>
+		<a href="/abysstop">топ Бездны</a>
+		<a href="/abyssbest" id="menu-abyssbest">лучшее Бездны</a></span>
+		<a href="/add" class="add last">добавить</a>
+			</div>
+	</div>
+	<div class="submenu">
+		<span class="title">Смотреть:</span>
+		<div class="options">
+			<a href="/showbad" class="current">все цитаты</a>
+			<a href="/hidebad">только без минусов</a>
+		</div>
+	</div>
+	<div id="stats">Утверждено <b>44673</b> цитаты, сегодня <b>20</b>, ждут очереди в Бездне <b>259</b></div>
+	<div class="submenu">
+	<span class="title">Прочее:</span>
+	<div class="options nowrap">
+		<a href="/comics" id="menu-comics">комиксы</a>
+		<a href="/faq">о сайте</a>
+		<a href="/webmaster">вебмастеру</a>		<a href="/rss">RSS</a>
+		<a href="http://twitter.com/b_o_r" class="last">Twitter</a>
+			</div>
+</div>
+	<form name="search" type="get" action="/index"><div id="search" class="submenu"><input type="text" id="text" name="text" placeholder="текст или номер цитаты" value="" /><button type="submit">Найти</button></div></form>
+	<div style="clear: both;"></div>
+</div>
+
+
+	
+
+		
+
+<script>
+$(document).ready(function() {
+        $(".pager form").bind("submit", function(e) {
+                var page = $("input:focus").val();
+                if (isNumeric(page)) {
+                        if (page >= 1 && page <= 894) {
+                                window.location('/index/' + page);
+                                return true;
+                        } else {
+                                alert("Нужно указать номер страницы от 1 до 894");
+                        }
+                };
+                return false;
+        });
+
+        $(".pager form input[type=text]").focus(function(){
+                this.select();
+        });
+});
+</script>
+
+<div class="pager"><form method="post" action="/index"><span class="current"><input type="text" name="page" class="page" pattern="[0-9]+" numeric="integer" min="1" max="894" value="894" /></span><a href="/index/893"><span class="arr">&rarr;</span><span>893</span></a><a href="/index/892"><span>892</span></a><span>&middot;&middot;&middot;</span><a href="/index/1"><span>начало</span></a></form></div>
+
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426789/rulez" class="up" rel="nofollow" onclick="v('426789',0,0); return false;">+</a>		<span class="rating-o"><span id="v426789" class="rating">1609</span></span>		<a href="/quote/426789/sux" class="down" rel="nofollow" onclick="v('426789',1,0); return false;">&ndash;</a>
+		<a href="/quote/426789/bayan" class="old" id="vb426789" rel="nofollow" onclick="v('426789',2,0); return false;">[:||||:]</a>		<span class="share" id="s426789"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426789', link: 'http://bash.im/quote/426789', title: 'Цитата #426789' });</script></span>										<span class="date">2014-02-13 12:44</span> <a href="/quote/426789" class="id">#426789</a>					</div>
+	<div class="text">xxx: Ты хоть одного хипстера в своей Москве видел?<br>yyy: Ну, был у меня одногруппник Женя, вечно носил очки со здоровенной оправой, дурацкий свитер, кеды не по сезону, ну мы его в шутку хипстером и дразнили. А потом он отрастил бороду, завел кота и стал сисадмином.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426788/rulez" class="up" rel="nofollow" onclick="v('426788',0,0); return false;">+</a>		<span class="rating-o"><span id="v426788" class="rating">1845</span></span>		<a href="/quote/426788/sux" class="down" rel="nofollow" onclick="v('426788',1,0); return false;">&ndash;</a>
+		<a href="/quote/426788/bayan" class="old" id="vb426788" rel="nofollow" onclick="v('426788',2,0); return false;">[:||||:]</a>		<span class="share" id="s426788"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426788', link: 'http://bash.im/quote/426788', title: 'Цитата #426788' });</script></span>										<span class="date">2014-02-13 12:44</span> <a href="/quote/426788" class="id">#426788</a>					</div>
+	<div class="text">rJIiOK: &quot;Для устранения проблемы подключитесь к сети на работе и повторите попытку проверить обновления или обратитесь к сетевому администратору&quot;. Эти строки всегда вызывали у меня боль<br>rJIiOK: потому что сетевой администратор - это я ( Мне не к кому идти (<br>IronGHOST: и сидишь ты с работы<br>rJIiOK: да (</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426787/rulez" class="up" rel="nofollow" onclick="v('426787',0,0); return false;">+</a>		<span class="rating-o"><span id="v426787" class="rating">1492</span></span>		<a href="/quote/426787/sux" class="down" rel="nofollow" onclick="v('426787',1,0); return false;">&ndash;</a>
+		<a href="/quote/426787/bayan" class="old" id="vb426787" rel="nofollow" onclick="v('426787',2,0); return false;">[:||||:]</a>		<span class="share" id="s426787"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426787', link: 'http://bash.im/quote/426787', title: 'Цитата #426787' });</script></span>										<span class="date">2014-02-13 12:13</span> <a href="/quote/426787" class="id">#426787</a>					</div>
+	<div class="text">- Здравствуйте! У меня СУФД не работает (программа такая), я зайти в него не могу, мне сказали, что надо cookie почистить.<br>- Сейчас наш специалист почистит cookie на Вашем компьютере.<br>- Да Вы Што, почему на моем?! Я сейчас очень занята! Пусть он на другом компьютере их почистит...</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426786/rulez" class="up" rel="nofollow" onclick="v('426786',0,0); return false;">+</a>		<span class="rating-o"><span id="v426786" class="rating">1130</span></span>		<a href="/quote/426786/sux" class="down" rel="nofollow" onclick="v('426786',1,0); return false;">&ndash;</a>
+		<a href="/quote/426786/bayan" class="old" id="vb426786" rel="nofollow" onclick="v('426786',2,0); return false;">[:||||:]</a>		<span class="share" id="s426786"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426786', link: 'http://bash.im/quote/426786', title: 'Цитата #426786' });</script></span>										<span class="date">2014-02-13 11:46</span> <a href="/quote/426786" class="id">#426786</a>					</div>
+	<div class="text">&quot;Съемки Олимпиады в Сочи будут вестись при помощи вертолетов и дирижаблей&quot;<br><br>ххх: Kirov reporting!</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426785/rulez" class="up" rel="nofollow" onclick="v('426785',0,0); return false;">+</a>		<span class="rating-o"><span id="v426785" class="rating">2528</span></span>		<a href="/quote/426785/sux" class="down" rel="nofollow" onclick="v('426785',1,0); return false;">&ndash;</a>
+		<a href="/quote/426785/bayan" class="old" id="vb426785" rel="nofollow" onclick="v('426785',2,0); return false;">[:||||:]</a>		<span class="share" id="s426785"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426785', link: 'http://bash.im/quote/426785', title: 'Цитата #426785' });</script></span>										<span class="date">2014-02-13 11:45</span> <a href="/quote/426785" class="id">#426785</a>					</div>
+	<div class="text">xxx: Настоящие друзья - это те люди, которые продолжают с вами здороваться после того, как вы занялись сетевым маркетингом.</div>
+	</div>	<div class="quote"><div style="width: 728px; height: 90px; margin: 0 auto;"><iframe src="http://lol.bash.im/_ad.php?zone=zone:3&pony=0" allowtransparency="true" style="width: 728px; height: 90px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" name="ctf" id="ctf"></iframe></div></div> 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426784/rulez" class="up" rel="nofollow" onclick="v('426784',0,0); return false;">+</a>		<span class="rating-o"><span id="v426784" class="rating">2752</span></span>		<a href="/quote/426784/sux" class="down" rel="nofollow" onclick="v('426784',1,0); return false;">&ndash;</a>
+		<a href="/quote/426784/bayan" class="old" id="vb426784" rel="nofollow" onclick="v('426784',2,0); return false;">[:||||:]</a>		<span class="share" id="s426784"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426784', link: 'http://bash.im/quote/426784', title: 'Цитата #426784' });</script></span>										<span class="date">2014-02-13 11:44</span> <a href="/quote/426784" class="id">#426784</a>					</div>
+	<div class="text">Eefrit:<br>Щас читаю договор на обучение<br>Eefrit:<br>Меня всегда так забавляют пункты про форс-мажоры<br>Eefrit:<br>6.1. Стороны освобождаются от ответственности[..], если оно явилось следствием обстоятельств непреодолимой силы (наводнение, землетрясение и другие стихийные бедствия, эмбарго, война или военные действия, диверсия, терроризм, издание нормативных правовых актов государственными органами, ...<br>TIROS:<br>государство - непреодолимая сила :)<br>Eefrit:<br>- Произошёл форс-мажор!<br>- Что случилось?<br>- Мы в России</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426783/rulez" class="up" rel="nofollow" onclick="v('426783',0,0); return false;">+</a>		<span class="rating-o"><span id="v426783" class="rating">2175</span></span>		<a href="/quote/426783/sux" class="down" rel="nofollow" onclick="v('426783',1,0); return false;">&ndash;</a>
+		<a href="/quote/426783/bayan" class="old" id="vb426783" rel="nofollow" onclick="v('426783',2,0); return false;">[:||||:]</a>		<span class="share" id="s426783"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426783', link: 'http://bash.im/quote/426783', title: 'Цитата #426783' });</script></span>										<span class="date">2014-02-13 11:13</span> <a href="/quote/426783" class="id">#426783</a>					</div>
+	<div class="text">Новость в паблике ВК:<br>В гипермаркете IKEA был найден автомат, из которого убили четырех человек.<br>1й коммент: Я знал, что из их мебели можно собрать автомат.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426782/rulez" class="up" rel="nofollow" onclick="v('426782',0,0); return false;">+</a>		<span class="rating-o"><span id="v426782" class="rating">2861</span></span>		<a href="/quote/426782/sux" class="down" rel="nofollow" onclick="v('426782',1,0); return false;">&ndash;</a>
+		<a href="/quote/426782/bayan" class="old" id="vb426782" rel="nofollow" onclick="v('426782',2,0); return false;">[:||||:]</a>		<span class="share" id="s426782"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426782', link: 'http://bash.im/quote/426782', title: 'Цитата #426782' });</script></span>										<span class="date">2014-02-13 10:45</span> <a href="/quote/426782" class="id">#426782</a>					</div>
+	<div class="text">xxx: отвезли ребенка бабушке мужа на лето, коренной петербурженке.<br>xxx: был нормальный ребенок - бАловался, игрался.<br>xxx: теперь он балУется и играет, я себя дояркой чувствую.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426781/rulez" class="up" rel="nofollow" onclick="v('426781',0,0); return false;">+</a>		<span class="rating-o"><span id="v426781" class="rating">2247</span></span>		<a href="/quote/426781/sux" class="down" rel="nofollow" onclick="v('426781',1,0); return false;">&ndash;</a>
+		<a href="/quote/426781/bayan" class="old" id="vb426781" rel="nofollow" onclick="v('426781',2,0); return false;">[:||||:]</a>		<span class="share" id="s426781"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426781', link: 'http://bash.im/quote/426781', title: 'Цитата #426781' });</script></span>										<span class="date">2014-02-13 10:44</span> <a href="/quote/426781" class="id">#426781</a>					</div>
+	<div class="text">Разговор сегодня в офисе.<br>xxx: Кинуть бы в него чем-нибудь.<br>yyy: А есть что-то тяжёлое и чего не жалко?<br>zzz: Моя жизнь...</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426780/rulez" class="up" rel="nofollow" onclick="v('426780',0,0); return false;">+</a>		<span class="rating-o"><span id="v426780" class="rating">3603</span></span>		<a href="/quote/426780/sux" class="down" rel="nofollow" onclick="v('426780',1,0); return false;">&ndash;</a>
+		<a href="/quote/426780/bayan" class="old" id="vb426780" rel="nofollow" onclick="v('426780',2,0); return false;">[:||||:]</a>		<span class="share" id="s426780"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426780', link: 'http://bash.im/quote/426780', title: 'Цитата #426780' });</script></span>										<span class="date">2014-02-13 10:44</span> <a href="/quote/426780" class="id">#426780</a>					</div>
+	<div class="text">xxx: Что бы ты сказала мне, если бы нашла в моем телефоне фотки каких-то левых баб?<br>yyy: Для начала пришлось бы объяснить, какого хрена я делала в твоем телефоне...</div>
+	</div>	 
+	<div class="quote"><script language='JavaScript' type='text/javascript' src='http://lol.bash.im/b/adx.js' charset='windows-1251'></script>
+<script language='JavaScript' type='text/javascript'>
+<!--
+   if (!document.phpAds_used) document.phpAds_used = ',';
+   phpAds_random = new String (Math.random()); phpAds_random = phpAds_random.substring(2,11);
+   
+   document.write ("<" + "script language='JavaScript' type='text/javascript' src='");
+   document.write ("http://lol.bash.im/b/adjs.php?n=" + phpAds_random);
+   document.write ("&amp;what=zone:2");
+   document.write ("&amp;exclude=" + document.phpAds_used);
+   if (document.referrer)
+      document.write ("&amp;referer=" + escape(document.referrer));
+   document.write ("' charset='windows-1251'><" + "/script>");
+//-->
+</script><noscript><a href='http://lol.bash.im/b/adclick.php?n=' target='_blank'><img src='http://lol.bash.im/b/adview.php?what=zone:2&amp;n=' border='0' alt=''></a></noscript></div> 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426779/rulez" class="up" rel="nofollow" onclick="v('426779',0,0); return false;">+</a>		<span class="rating-o"><span id="v426779" class="rating">3599</span></span>		<a href="/quote/426779/sux" class="down" rel="nofollow" onclick="v('426779',1,0); return false;">&ndash;</a>
+		<a href="/quote/426779/bayan" class="old" id="vb426779" rel="nofollow" onclick="v('426779',2,0); return false;">[:||||:]</a>		<span class="share" id="s426779"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426779', link: 'http://bash.im/quote/426779', title: 'Цитата #426779' });</script></span>										<span class="date">2014-02-13 10:12</span> <a href="/quote/426779" class="id">#426779</a>					</div>
+	<div class="text">xxx: Вот в первом классе проходили &quot;жи-ши&quot; правило. На всех стенах были плакаты расклеены. Учительница проводила устный опрос, как правильно писать; предупредила: кто скажет, что через &quot;ы&quot; - получит кол. В общем, все условия. Так одна девочка все равно сказала, что через &quot;ы&quot;, получила свой кол. И сразу за ней - вторая.<br>Я был возмущен, носился по дому кругами: &quot;как же так? как можно было не запомнить и не извлечь никакого урока из опыта предыдущего оратора?&quot;<br>Сейчас подрос немного, работаю в техподдержке. Вспоминаю тех девочек практически с нежностью...</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426778/rulez" class="up" rel="nofollow" onclick="v('426778',0,0); return false;">+</a>		<span class="rating-o"><span id="v426778" class="rating">1409</span></span>		<a href="/quote/426778/sux" class="down" rel="nofollow" onclick="v('426778',1,0); return false;">&ndash;</a>
+		<a href="/quote/426778/bayan" class="old" id="vb426778" rel="nofollow" onclick="v('426778',2,0); return false;">[:||||:]</a>		<span class="share" id="s426778"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426778', link: 'http://bash.im/quote/426778', title: 'Цитата #426778' });</script></span>										<span class="date">2014-02-13 10:11</span> <a href="/quote/426778" class="id">#426778</a>					</div>
+	<div class="text">Фото в соц сети, комментарии:<br><br>xxx: Подскажите как снять эту шестерню-наконечник? Он из какого-то металлического сплава. (снял с принтера, хочу делать дремель)<br><br>yyy: Болгаркой херакни разок)<br><br>zzz: Это конечно нетрадиционный для россии подход... а может купить дремель?</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426777/rulez" class="up" rel="nofollow" onclick="v('426777',0,0); return false;">+</a>		<span class="rating-o"><span id="v426777" class="rating">4503</span></span>		<a href="/quote/426777/sux" class="down" rel="nofollow" onclick="v('426777',1,0); return false;">&ndash;</a>
+		<a href="/quote/426777/bayan" class="old" id="vb426777" rel="nofollow" onclick="v('426777',2,0); return false;">[:||||:]</a>		<span class="share" id="s426777"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426777', link: 'http://bash.im/quote/426777', title: 'Цитата #426777' });</script></span>										<span class="date">2014-02-13 10:11</span> <a href="/quote/426777" class="id">#426777</a>					</div>
+	<div class="text">hyhax: О влиянии компьютерных игр: подумал - и правда, запретить все на хуй!<br>hyhax: Ведь люди, принимающие все эти дебильные законы - поколение, выросшее на тетрисе и пакмэне!<br>hyhax: И всё что умеют - складывать всё так, чтобы ничего не осталось, да жрать монетки на скорость!</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426776/rulez" class="up" rel="nofollow" onclick="v('426776',0,0); return false;">+</a>		<span class="rating-o"><span id="v426776" class="rating">2564</span></span>		<a href="/quote/426776/sux" class="down" rel="nofollow" onclick="v('426776',1,0); return false;">&ndash;</a>
+		<a href="/quote/426776/bayan" class="old" id="vb426776" rel="nofollow" onclick="v('426776',2,0); return false;">[:||||:]</a>		<span class="share" id="s426776"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426776', link: 'http://bash.im/quote/426776', title: 'Цитата #426776' });</script></span>										<span class="date">2014-02-13 09:46</span> <a href="/quote/426776" class="id">#426776</a>					</div>
+	<div class="text">XXX: Пересадил своих бухгалтерш с XP на Семёрку.<br>YYY: Долго же слоупочил)) 2014-й год на дворе. Давно пора!<br>XXX: На Debian 7.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426775/rulez" class="up" rel="nofollow" onclick="v('426775',0,0); return false;">+</a>		<span class="rating-o"><span id="v426775" class="rating">1875</span></span>		<a href="/quote/426775/sux" class="down" rel="nofollow" onclick="v('426775',1,0); return false;">&ndash;</a>
+		<a href="/quote/426775/bayan" class="old" id="vb426775" rel="nofollow" onclick="v('426775',2,0); return false;">[:||||:]</a>		<span class="share" id="s426775"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426775', link: 'http://bash.im/quote/426775', title: 'Цитата #426775' });</script></span>										<span class="date">2014-02-13 09:45</span> <a href="/quote/426775" class="id">#426775</a>					</div>
+	<div class="text">с форума про хорошего, многопрофильного врача...<br><br>Олег: Может и не типично, но xороший врач - это опытный врач, который и кишку пальцем посмотрит и связки голосовые при необxодимости.<br><br>Натали: Олег, главное, не одним и тем же пальцем...</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426774/rulez" class="up" rel="nofollow" onclick="v('426774',0,0); return false;">+</a>		<span class="rating-o"><span id="v426774" class="rating">1419</span></span>		<a href="/quote/426774/sux" class="down" rel="nofollow" onclick="v('426774',1,0); return false;">&ndash;</a>
+		<a href="/quote/426774/bayan" class="old" id="vb426774" rel="nofollow" onclick="v('426774',2,0); return false;">[:||||:]</a>		<span class="share" id="s426774"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426774', link: 'http://bash.im/quote/426774', title: 'Цитата #426774' });</script></span>										<span class="date">2014-02-13 09:12</span> <a href="/quote/426774" class="id">#426774</a>					</div>
+	<div class="text">xxx: Люблю тебя ) Приезжай скорее, у меня кончились чистые носки.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426773/rulez" class="up" rel="nofollow" onclick="v('426773',0,0); return false;">+</a>		<span class="rating-o"><span id="v426773" class="rating">5324</span></span>		<a href="/quote/426773/sux" class="down" rel="nofollow" onclick="v('426773',1,0); return false;">&ndash;</a>
+		<a href="/quote/426773/bayan" class="old" id="vb426773" rel="nofollow" onclick="v('426773',2,0); return false;">[:||||:]</a>		<span class="share" id="s426773"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426773', link: 'http://bash.im/quote/426773', title: 'Цитата #426773' });</script></span>										<span class="date">2014-02-13 09:12</span> <a href="/quote/426773" class="id">#426773</a>					</div>
+	<div class="text">Время около 12 ночи. Зашел в магазинчик, где втихаря продают алкоголь. Передо мной мужик лет 25, тихонько спрашивает продавщицу:<br>М: девушка, а можно ли пива?<br>П: а документы есть?<br>Мужик, тренированым движение достает удостоверение полиции (или как там) и показывает девушке. Через секунду на лице мужика проявляецца недоумение и он медленно убирает документы.<br>П: ну, 18 вам есть, вижу, но к сожелению, после 10, мы не продаем.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426772/rulez" class="up" rel="nofollow" onclick="v('426772',0,0); return false;">+</a>		<span class="rating-o"><span id="v426772" class="rating">3415</span></span>		<a href="/quote/426772/sux" class="down" rel="nofollow" onclick="v('426772',1,0); return false;">&ndash;</a>
+		<a href="/quote/426772/bayan" class="old" id="vb426772" rel="nofollow" onclick="v('426772',2,0); return false;">[:||||:]</a>		<span class="share" id="s426772"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426772', link: 'http://bash.im/quote/426772', title: 'Цитата #426772' });</script></span>										<span class="date">2014-02-13 08:46</span> <a href="/quote/426772" class="id">#426772</a>					</div>
+	<div class="text">liepavac: Генно модифицированную кукурузу, рис и прочее отказываются даже есть букашки-вредители. Так неужели наши правители глупее этих букашек и хотят нас заставить жрать эту гадость.<br>aldor: О, сразу видно человека, который принципиально ест ТОЛЬКО червивые яблоки.<br>anitka_rr: и картофельную ботву (рекомендации элитных колорадских жуков!)<br>zloradskij: да и миллиарды навозных мух не могут ошибаться.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426771/rulez" class="up" rel="nofollow" onclick="v('426771',0,0); return false;">+</a>		<span class="rating-o"><span id="v426771" class="rating">1371</span></span>		<a href="/quote/426771/sux" class="down" rel="nofollow" onclick="v('426771',1,0); return false;">&ndash;</a>
+		<a href="/quote/426771/bayan" class="old" id="vb426771" rel="nofollow" onclick="v('426771',2,0); return false;">[:||||:]</a>		<span class="share" id="s426771"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426771', link: 'http://bash.im/quote/426771', title: 'Цитата #426771' });</script></span>										<span class="date">2014-02-13 08:13</span> <a href="/quote/426771" class="id">#426771</a>					</div>
+	<div class="text">xxx: Ставлю самовывоз, а он спрашивает куда доставлять :(<br>yyy: Ну адрес магазина укажи.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426770/rulez" class="up" rel="nofollow" onclick="v('426770',0,0); return false;">+</a>		<span class="rating-o"><span id="v426770" class="rating">1639</span></span>		<a href="/quote/426770/sux" class="down" rel="nofollow" onclick="v('426770',1,0); return false;">&ndash;</a>
+		<a href="/quote/426770/bayan" class="old" id="vb426770" rel="nofollow" onclick="v('426770',2,0); return false;">[:||||:]</a>		<span class="share" id="s426770"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426770', link: 'http://bash.im/quote/426770', title: 'Цитата #426770' });</script></span>										<span class="date">2014-02-13 08:12</span> <a href="/quote/426770" class="id">#426770</a>					</div>
+	<div class="text">Утребовал подругу сделать селедку &quot;под шубой&quot; (магазинной не проведёт), не любит она её до мелкой ссоры. Приезжаю, на столе всё чин-чинарем. Почти.<br>- Это чего такое?<br>- Ты селедку просил?<br>- Просил.<br>- Под шубой?<br>- Под шубой.<br>- Отстань :-)<br>Селедка была бережно накрыта шубкой от куклы, поверх целофана.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426769/rulez" class="up" rel="nofollow" onclick="v('426769',0,0); return false;">+</a>		<span class="rating-o"><span id="v426769" class="rating">5606</span></span>		<a href="/quote/426769/sux" class="down" rel="nofollow" onclick="v('426769',1,0); return false;">&ndash;</a>
+		<a href="/quote/426769/bayan" class="old" id="vb426769" rel="nofollow" onclick="v('426769',2,0); return false;">[:||||:]</a>		<span class="share" id="s426769"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426769', link: 'http://bash.im/quote/426769', title: 'Цитата #426769' });</script></span>										<span class="date">2014-02-12 13:13</span> <a href="/quote/426769" class="id">#426769</a>					</div>
+	<div class="text">xxx: Вспомнилось как сотрудница ЦЗН, глядя на мой диплом политолога, с апломбом уверяла меня, что я врач. Ну типа политолог, стоматолог, проктолог это однопорядковые понятия.<br>yyy: Круто)) Надо было выписать ей направление к кинологу. Тоже врач, в какой-то мере))</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426768/rulez" class="up" rel="nofollow" onclick="v('426768',0,0); return false;">+</a>		<span class="rating-o"><span id="v426768" class="rating">5336</span></span>		<a href="/quote/426768/sux" class="down" rel="nofollow" onclick="v('426768',1,0); return false;">&ndash;</a>
+		<a href="/quote/426768/bayan" class="old" id="vb426768" rel="nofollow" onclick="v('426768',2,0); return false;">[:||||:]</a>		<span class="share" id="s426768"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426768', link: 'http://bash.im/quote/426768', title: 'Цитата #426768' });</script></span>										<span class="date">2014-02-12 13:12</span> <a href="/quote/426768" class="id">#426768</a>					</div>
+	<div class="text">nicka: интересно, &quot;азбука вязания&quot; - это про свитера, или про разведение породистых собак?<br>Steel_Cat: это про тренировки ОМОНа )</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426767/rulez" class="up" rel="nofollow" onclick="v('426767',0,0); return false;">+</a>		<span class="rating-o"><span id="v426767" class="rating">2930</span></span>		<a href="/quote/426767/sux" class="down" rel="nofollow" onclick="v('426767',1,0); return false;">&ndash;</a>
+		<a href="/quote/426767/bayan" class="old" id="vb426767" rel="nofollow" onclick="v('426767',2,0); return false;">[:||||:]</a>		<span class="share" id="s426767"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426767', link: 'http://bash.im/quote/426767', title: 'Цитата #426767' });</script></span>										<span class="date">2014-02-12 13:11</span> <a href="/quote/426767" class="id">#426767</a>					</div>
+	<div class="text">xxx: Параллельно чатиться по скайпу с людьми из Риги и Рио (который де Жанейро)... Не так уж и давно я о таком разве что в фантастических рассказах мог читать.<br>yyy: И при этом не знать, как зовут своих соседей... Такое вот время!</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426766/rulez" class="up" rel="nofollow" onclick="v('426766',0,0); return false;">+</a>		<span class="rating-o"><span id="v426766" class="rating"> ... </span></span>		<a href="/quote/426766/sux" class="down" rel="nofollow" onclick="v('426766',1,0); return false;">&ndash;</a>
+		<a href="/quote/426766/bayan" class="old" id="vb426766" rel="nofollow" onclick="v('426766',2,0); return false;">[:||||:]</a>		<span class="share" id="s426766"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426766', link: 'http://bash.im/quote/426766', title: 'Цитата #426766' });</script></span>										<span class="date">2014-02-12 12:46</span> <a href="/quote/426766" class="id">#426766</a>					</div>
+	<div class="text">ххх<br>Пересматриваю Тампль с нашего первого Зиланта.<br>Рок-опера о суде над магистром ордена тамлиеров.<br>Стоит этот магистр на сцене: гордыня и непреклонность в очах, лицо, одухотворенное яростью и верой в свою правоту, волосы длинные, бородка аля JCSS, в тунике с крестом тамплиерским, в кандалах. Крупный план с ног вверх: кожаные сапоги, штаны тоже кожаные - реконструкторские, цепи на руках, фенечки плетенные из мулине...<br>Толкиенисты, они такие милые )))</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426765/rulez" class="up" rel="nofollow" onclick="v('426765',0,0); return false;">+</a>		<span class="rating-o"><span id="v426765" class="rating">4382</span></span>		<a href="/quote/426765/sux" class="down" rel="nofollow" onclick="v('426765',1,0); return false;">&ndash;</a>
+		<a href="/quote/426765/bayan" class="old" id="vb426765" rel="nofollow" onclick="v('426765',2,0); return false;">[:||||:]</a>		<span class="share" id="s426765"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426765', link: 'http://bash.im/quote/426765', title: 'Цитата #426765' });</script></span>										<span class="date">2014-02-12 12:12</span> <a href="/quote/426765" class="id">#426765</a>					</div>
+	<div class="text">Ardolafat: Когда Китай запретил биткоин, упал биткоин. Когда Россия запретила биткоин, упал рубль.<br></div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426764/rulez" class="up" rel="nofollow" onclick="v('426764',0,0); return false;">+</a>		<span class="rating-o"><span id="v426764" class="rating">6000</span></span>		<a href="/quote/426764/sux" class="down" rel="nofollow" onclick="v('426764',1,0); return false;">&ndash;</a>
+		<a href="/quote/426764/bayan" class="old" id="vb426764" rel="nofollow" onclick="v('426764',2,0); return false;">[:||||:]</a>		<span class="share" id="s426764"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426764', link: 'http://bash.im/quote/426764', title: 'Цитата #426764' });</script></span>										<span class="date">2014-02-12 12:11</span> <a href="/quote/426764" class="id">#426764</a>					</div>
+	<div class="text">Комент из обсуждения &quot;Неудержимых 3&quot; в ЖЖ:<br><br>ххх: Да-а-а-а! Клинта надо срочно :) И Кристофера Ламберта! И Курта Рассела! И Рутгера Хауэра!<br>И на кассете выпустить! У кого нет видака - пусть узнают, что это такое &quot;нет видака&quot; :)))</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426763/rulez" class="up" rel="nofollow" onclick="v('426763',0,0); return false;">+</a>		<span class="rating-o"><span id="v426763" class="rating">2837</span></span>		<a href="/quote/426763/sux" class="down" rel="nofollow" onclick="v('426763',1,0); return false;">&ndash;</a>
+		<a href="/quote/426763/bayan" class="old" id="vb426763" rel="nofollow" onclick="v('426763',2,0); return false;">[:||||:]</a>		<span class="share" id="s426763"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426763', link: 'http://bash.im/quote/426763', title: 'Цитата #426763' });</script></span>										<span class="date">2014-02-12 12:11</span> <a href="/quote/426763" class="id">#426763</a>					</div>
+	<div class="text">xxx: Да ладно тебе, дети - наше будущее.<br>yyy: Достаточно было начать играть в WOT, чтобы понять, что такого будущего для страны, как ЭТИ дети, я не хочу. Маты и те с ошибками пишут.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426762/rulez" class="up" rel="nofollow" onclick="v('426762',0,0); return false;">+</a>		<span class="rating-o"><span id="v426762" class="rating">1609</span></span>		<a href="/quote/426762/sux" class="down" rel="nofollow" onclick="v('426762',1,0); return false;">&ndash;</a>
+		<a href="/quote/426762/bayan" class="old" id="vb426762" rel="nofollow" onclick="v('426762',2,0); return false;">[:||||:]</a>		<span class="share" id="s426762"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426762', link: 'http://bash.im/quote/426762', title: 'Цитата #426762' });</script></span>										<span class="date">2014-02-12 11:46</span> <a href="/quote/426762" class="id">#426762</a>					</div>
+	<div class="text">Комментарий под новостью об утечке фото ожидаемых девайсов.<br><br>Vik Karavaev:<br>Щас фотку любого прямоугольника можно назвать &quot;утечкой&quot;. Все равно не различаются...</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426761/rulez" class="up" rel="nofollow" onclick="v('426761',0,0); return false;">+</a>		<span class="rating-o"><span id="v426761" class="rating">1828</span></span>		<a href="/quote/426761/sux" class="down" rel="nofollow" onclick="v('426761',1,0); return false;">&ndash;</a>
+		<a href="/quote/426761/bayan" class="old" id="vb426761" rel="nofollow" onclick="v('426761',2,0); return false;">[:||||:]</a>		<span class="share" id="s426761"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426761', link: 'http://bash.im/quote/426761', title: 'Цитата #426761' });</script></span>										<span class="date">2014-02-12 11:45</span> <a href="/quote/426761" class="id">#426761</a>					</div>
+	<div class="text">Фотофорум<br><br>aaa: А 85L и 135L будут последними, которые я продам, если совсем будет нечего кушать...<br>bbb: а почки ж?<br>aaa: А почки продал, когда все это покупал...</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426760/rulez" class="up" rel="nofollow" onclick="v('426760',0,0); return false;">+</a>		<span class="rating-o"><span id="v426760" class="rating">4930</span></span>		<a href="/quote/426760/sux" class="down" rel="nofollow" onclick="v('426760',1,0); return false;">&ndash;</a>
+		<a href="/quote/426760/bayan" class="old" id="vb426760" rel="nofollow" onclick="v('426760',2,0); return false;">[:||||:]</a>		<span class="share" id="s426760"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426760', link: 'http://bash.im/quote/426760', title: 'Цитата #426760' });</script></span>										<span class="date">2014-02-12 11:12</span> <a href="/quote/426760" class="id">#426760</a>					</div>
+	<div class="text">xxx: Люблю аптеку через дорогу за то, что на сдачу с презервативов мне там всегда дают гематогенку.<br>ххх: а вчера покупал - аскорбинку предложили.<br>ххх: я весь такой: &quot;Я вам что, маленький, что ли?!&quot;<br>ххх: &quot;Дайте гематогенку!&quot;</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426759/rulez" class="up" rel="nofollow" onclick="v('426759',0,0); return false;">+</a>		<span class="rating-o"><span id="v426759" class="rating">1908</span></span>		<a href="/quote/426759/sux" class="down" rel="nofollow" onclick="v('426759',1,0); return false;">&ndash;</a>
+		<a href="/quote/426759/bayan" class="old" id="vb426759" rel="nofollow" onclick="v('426759',2,0); return false;">[:||||:]</a>		<span class="share" id="s426759"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426759', link: 'http://bash.im/quote/426759', title: 'Цитата #426759' });</script></span>										<span class="date">2014-02-12 11:12</span> <a href="/quote/426759" class="id">#426759</a>					</div>
+	<div class="text">- Начался февраль. Я знаю это, т.к. наш рабочий принтер прислал мне по мылу ежемесячный отчет.<br>- Да, лет через 5 у тебя будет широкий круг общения по переписке с принтером, кофеваркой и турникетом на охране.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426758/rulez" class="up" rel="nofollow" onclick="v('426758',0,0); return false;">+</a>		<span class="rating-o"><span id="v426758" class="rating">1703</span></span>		<a href="/quote/426758/sux" class="down" rel="nofollow" onclick="v('426758',1,0); return false;">&ndash;</a>
+		<a href="/quote/426758/bayan" class="old" id="vb426758" rel="nofollow" onclick="v('426758',2,0); return false;">[:||||:]</a>		<span class="share" id="s426758"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426758', link: 'http://bash.im/quote/426758', title: 'Цитата #426758' });</script></span>										<span class="date">2014-02-12 10:46</span> <a href="/quote/426758" class="id">#426758</a>					</div>
+	<div class="text">из жж:<br><br>Однажды я ехала на соседней полке с моряком. Настоящим таким моряком, только шахтером. То есть он вообще моряк, потому что туеву гору лет проплавал по морям. Не помню кем, боцманом или кем-то другим, но главное - что он моряк. А значит он может травить морские байки, пока морской дьявол на горе не свистнет. То есть все то время, что не спит. В поезд я загружалась в 6 утра, естественно после ночи сборов без боя сдалась &quot;тутук-тутуку&quot;, а в 11 узнала, что напротив меня едет моряк. Потому что в 11 он проснулся и открыл рот, а закрыл его только в 23, и то потому что ему его закрыли под предлогом &quot;все уже спят, хорош базарить&quot;. И все это время он травил байки. Морские. За несколько лет мореплавания у него их накопилось гораздо больше, чем на 12 часов. Это как ехать в одном купе с Джеком Воробьем. А когда на ум переставали приходить подходящие морские байки, он вспоминал, что он вообще-то сейчас шахтер, и начинал рассказывать шахтерские байки. Потому что он как-то наплавался по морям и решил спуститься под землю. Для разнообразия. Чего мелочиться - с воды сразу под землю. Вообще этому было разумное объяснение, но я сейчас его уже не вспомню. Но суть в том, что он моряк, но теперь вот шахтер, и может рассказать о жизни шахтерской. Как будто нам морской мало.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426757/rulez" class="up" rel="nofollow" onclick="v('426757',0,0); return false;">+</a>		<span class="rating-o"><span id="v426757" class="rating">6587</span></span>		<a href="/quote/426757/sux" class="down" rel="nofollow" onclick="v('426757',1,0); return false;">&ndash;</a>
+		<a href="/quote/426757/bayan" class="old" id="vb426757" rel="nofollow" onclick="v('426757',2,0); return false;">[:||||:]</a>		<span class="share" id="s426757"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426757', link: 'http://bash.im/quote/426757', title: 'Цитата #426757' });</script></span>										<span class="date">2014-02-12 10:13</span> <a href="/quote/426757" class="id">#426757</a>					</div>
+	<div class="text">Монтажная компания. В коридоре стоят HR-менеджер и о чем-то разговаривает со здоровенным прорабом.<br>О прорабе нужно рассказать подробнее — несколько лет в компании, два метра ростом, килограмм 130 мышц, накаченный как Рэмбо и при этом лысый как Хитман. В общем согнет лом и не сморщится. Гроза монтажников и субподрядчиков.<br>В этот момент по коридору идет владелица компании, хрупкая, невысокая женщина лет 50.<br>Поровнявшись с ребятами и обращаясь к прорабу проникновенно, по-матерински спрашивает:<br>— Леша, как ты? Никто тебя не обижает?<br>Оправившись от шока, отрицательно замотав головой, сообщает, что всё в порядке.<br></div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426756/rulez" class="up" rel="nofollow" onclick="v('426756',0,0); return false;">+</a>		<span class="rating-o"><span id="v426756" class="rating">3692</span></span>		<a href="/quote/426756/sux" class="down" rel="nofollow" onclick="v('426756',1,0); return false;">&ndash;</a>
+		<a href="/quote/426756/bayan" class="old" id="vb426756" rel="nofollow" onclick="v('426756',2,0); return false;">[:||||:]</a>		<span class="share" id="s426756"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426756', link: 'http://bash.im/quote/426756', title: 'Цитата #426756' });</script></span>										<span class="date">2014-02-12 09:45</span> <a href="/quote/426756" class="id">#426756</a>					</div>
+	<div class="text">TS: наши заказчики пишут:<br>вы выслали нам готовый файл и исходники. мы покрутили исходники и вышло какое-то говно. зачем вы так с нами поступили?<br>TS: это дословно.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426755/rulez" class="up" rel="nofollow" onclick="v('426755',0,0); return false;">+</a>		<span class="rating-o"><span id="v426755" class="rating">2462</span></span>		<a href="/quote/426755/sux" class="down" rel="nofollow" onclick="v('426755',1,0); return false;">&ndash;</a>
+		<a href="/quote/426755/bayan" class="old" id="vb426755" rel="nofollow" onclick="v('426755',2,0); return false;">[:||||:]</a>		<span class="share" id="s426755"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426755', link: 'http://bash.im/quote/426755', title: 'Цитата #426755' });</script></span>										<span class="date">2014-02-12 09:45</span> <a href="/quote/426755" class="id">#426755</a>					</div>
+	<div class="text">С D3:<br>wereman: Бесплатный ви–фи актуален в суши–барах, всяких там, да лаунж–кафе. А в пивной–то он нафига?<br>upviqq: wereman: Звонить бывшей по скайпу.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426754/rulez" class="up" rel="nofollow" onclick="v('426754',0,0); return false;">+</a>		<span class="rating-o"><span id="v426754" class="rating">4334</span></span>		<a href="/quote/426754/sux" class="down" rel="nofollow" onclick="v('426754',1,0); return false;">&ndash;</a>
+		<a href="/quote/426754/bayan" class="old" id="vb426754" rel="nofollow" onclick="v('426754',2,0); return false;">[:||||:]</a>		<span class="share" id="s426754"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426754', link: 'http://bash.im/quote/426754', title: 'Цитата #426754' });</script></span>										<span class="date">2014-02-12 09:44</span> <a href="/quote/426754" class="id">#426754</a>					</div>
+	<div class="text">xxx:<br>Пыталась завести машину после того как она неделю на морозе простояла. Не получилось, позвала друзей на помощь. Всё таки зараза она у меня, значит я её не завожу, а толпа мужиков заводит....</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426753/rulez" class="up" rel="nofollow" onclick="v('426753',0,0); return false;">+</a>		<span class="rating-o"><span id="v426753" class="rating">129</span></span>		<a href="/quote/426753/sux" class="down" rel="nofollow" onclick="v('426753',1,0); return false;">&ndash;</a>
+		<a href="/quote/426753/bayan" class="old" id="vb426753" rel="nofollow" onclick="v('426753',2,0); return false;">[:||||:]</a>		<span class="share" id="s426753"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426753', link: 'http://bash.im/quote/426753', title: 'Цитата #426753' });</script></span>										<span class="date">2014-02-12 09:13</span> <a href="/quote/426753" class="id">#426753</a>					</div>
+	<div class="text">С d3, из поста про ядовитую птицу - хохлатого питохуи.<br><br>PythonX: А это вторая ядовитая птица - синеголовый ифрит Ковальди, и тоже имеет отношение к жучку хорезине<br>father_gorry: грустный такой<br>cm: тебя заставь всю жизнь ядовитыми жуками питаться, ещё не так погрустнеешь.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426752/rulez" class="up" rel="nofollow" onclick="v('426752',0,0); return false;">+</a>		<span class="rating-o"><span id="v426752" class="rating">1357</span></span>		<a href="/quote/426752/sux" class="down" rel="nofollow" onclick="v('426752',1,0); return false;">&ndash;</a>
+		<a href="/quote/426752/bayan" class="old" id="vb426752" rel="nofollow" onclick="v('426752',2,0); return false;">[:||||:]</a>		<span class="share" id="s426752"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426752', link: 'http://bash.im/quote/426752', title: 'Цитата #426752' });</script></span>										<span class="date">2014-02-12 08:45</span> <a href="/quote/426752" class="id">#426752</a>					</div>
+	<div class="text">Yascher: Блин и ещё: я почти уверен, что в диалогах вида &quot;Вы уверены, что хотите закрыть %windowname%?&quot; надо третью кнопку<br>Yascher: &quot;Не уверен, но, чёрт подери, надо!&quot;</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426751/rulez" class="up" rel="nofollow" onclick="v('426751',0,0); return false;">+</a>		<span class="rating-o"><span id="v426751" class="rating">4941</span></span>		<a href="/quote/426751/sux" class="down" rel="nofollow" onclick="v('426751',1,0); return false;">&ndash;</a>
+		<a href="/quote/426751/bayan" class="old" id="vb426751" rel="nofollow" onclick="v('426751',2,0); return false;">[:||||:]</a>		<span class="share" id="s426751"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426751', link: 'http://bash.im/quote/426751', title: 'Цитата #426751' });</script></span>										<span class="date">2014-02-12 08:45</span> <a href="/quote/426751" class="id">#426751</a>					</div>
+	<div class="text">Виталий: кто-нибудь в физике шарит? закон кулона<br>Виталий: дочке надо объяснить задачу, а я что-то не въеду<br>Eugene: чем глубже декольте тем интереснее кулон</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426750/rulez" class="up" rel="nofollow" onclick="v('426750',0,0); return false;">+</a>		<span class="rating-o"><span id="v426750" class="rating"> ... </span></span>		<a href="/quote/426750/sux" class="down" rel="nofollow" onclick="v('426750',1,0); return false;">&ndash;</a>
+		<a href="/quote/426750/bayan" class="old" id="vb426750" rel="nofollow" onclick="v('426750',2,0); return false;">[:||||:]</a>		<span class="share" id="s426750"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426750', link: 'http://bash.im/quote/426750', title: 'Цитата #426750' });</script></span>										<span class="date">2014-02-12 08:13</span> <a href="/quote/426750" class="id">#426750</a>					</div>
+	<div class="text">в очередной болтовне на тему игры престолов:<br><br>XXX: я тут понял! Ходор это покемон Брана. Помните мультик - они там тоже только своё имя говорить умели :)</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426749/rulez" class="up" rel="nofollow" onclick="v('426749',0,0); return false;">+</a>		<span class="rating-o"><span id="v426749" class="rating">3334</span></span>		<a href="/quote/426749/sux" class="down" rel="nofollow" onclick="v('426749',1,0); return false;">&ndash;</a>
+		<a href="/quote/426749/bayan" class="old" id="vb426749" rel="nofollow" onclick="v('426749',2,0); return false;">[:||||:]</a>		<span class="share" id="s426749"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426749', link: 'http://bash.im/quote/426749', title: 'Цитата #426749' });</script></span>										<span class="date">2014-02-11 18:59</span> <a href="/quote/426749" class="id">#426749</a>					</div>
+	<div class="text">Вчера пил пиво с друзьями в КФС, решили приколоться как в рекламе - я сел в поднос, а дружбаны меня тащили на шарфе вдоль касс. Никакого веселья у сотрудников - никаких призов я не получил, зато охранник выгнал всех нас ((</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426748/rulez" class="up" rel="nofollow" onclick="v('426748',0,0); return false;">+</a>		<span class="rating-o"><span id="v426748" class="rating">7447</span></span>		<a href="/quote/426748/sux" class="down" rel="nofollow" onclick="v('426748',1,0); return false;">&ndash;</a>
+		<a href="/quote/426748/bayan" class="old" id="vb426748" rel="nofollow" onclick="v('426748',2,0); return false;">[:||||:]</a>		<span class="share" id="s426748"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426748', link: 'http://bash.im/quote/426748', title: 'Цитата #426748' });</script></span>										<span class="date">2014-02-11 12:45</span> <a href="/quote/426748" class="id">#426748</a>					</div>
+	<div class="text">Предупреждение от службы информационной безопасности: &quot;Если вам прислали ссылку на скачивание песни Стаса Михайлова, не открывайте её, там ссылка на скачивание песни Стаса Михайлова!&quot;</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426747/rulez" class="up" rel="nofollow" onclick="v('426747',0,0); return false;">+</a>		<span class="rating-o"><span id="v426747" class="rating">1480</span></span>		<a href="/quote/426747/sux" class="down" rel="nofollow" onclick="v('426747',1,0); return false;">&ndash;</a>
+		<a href="/quote/426747/bayan" class="old" id="vb426747" rel="nofollow" onclick="v('426747',2,0); return false;">[:||||:]</a>		<span class="share" id="s426747"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426747', link: 'http://bash.im/quote/426747', title: 'Цитата #426747' });</script></span>										<span class="date">2014-02-11 12:13</span> <a href="/quote/426747" class="id">#426747</a>					</div>
+	<div class="text">Eefrit: Собирался делать уборку. Смотришь вокруг, думаешь &quot;А в принципе и так сойдёт&quot;. Потом к тебе в комнату приходит Кот. Катается по полу, чтоб его погладили по животу. Потом залазит на коленки, чтоб его хоть как-то погладили. Я его глажу и понимаю, что пол у меня дико грязный на самом деле.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426746/rulez" class="up" rel="nofollow" onclick="v('426746',0,0); return false;">+</a>		<span class="rating-o"><span id="v426746" class="rating">2989</span></span>		<a href="/quote/426746/sux" class="down" rel="nofollow" onclick="v('426746',1,0); return false;">&ndash;</a>
+		<a href="/quote/426746/bayan" class="old" id="vb426746" rel="nofollow" onclick="v('426746',2,0); return false;">[:||||:]</a>		<span class="share" id="s426746"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426746', link: 'http://bash.im/quote/426746', title: 'Цитата #426746' });</script></span>										<span class="date">2014-02-11 12:12</span> <a href="/quote/426746" class="id">#426746</a>					</div>
+	<div class="text">thealx: работал в соцконторе. идет презентация на каком-то совещании. я за аппаратурой, за мной в первом ряду руководство. докладчик читает &quot; ... мы оказываем психологическую помощь людям с различными зависимостями: алкогольной и наркотической, шопоголикам, сексоголикам ... &quot;<br>за спиной диалог:<br>xxx: а кто такие сексоголики?<br>yyy шепчет ей что-то на ухо<br>xxx: ВААА! И ТАКИЕ БЫВАЮТ??!!</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426745/rulez" class="up" rel="nofollow" onclick="v('426745',0,0); return false;">+</a>		<span class="rating-o"><span id="v426745" class="rating">8994</span></span>		<a href="/quote/426745/sux" class="down" rel="nofollow" onclick="v('426745',1,0); return false;">&ndash;</a>
+		<a href="/quote/426745/bayan" class="old" id="vb426745" rel="nofollow" onclick="v('426745',2,0); return false;">[:||||:]</a>		<span class="share" id="s426745"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426745', link: 'http://bash.im/quote/426745', title: 'Цитата #426745' });</script></span>										<span class="date">2014-02-11 12:11</span> <a href="/quote/426745" class="id">#426745</a>					</div>
+	<div class="text">На форуме онлайн игры после продолжительной дискуссии о том у кого статы лучше, уровень выше, меч длиннее.<br>Rape: Да что вы знаете о фалометрии, сосунки? Вот мой батя взял хряка, для того чтобы он покрыл наших свиней. Взял он его у знакомого, с которым он, мягко говоря, в натянутых отношениях. Привезли его, хряка, в клетке. Знакомый заботливо выбрал видимо самого тщедушного, худого и напуганного самца. Его перегнали в клетку, и после непродолжительного обмена &quot;любезностями&quot; знакомый уехал. С тех пор смысл жизни бати сосредоточился на хряке. На печке булькали каши, клетка была вычищена до блеска, нутряной жир плавился на сковороде и вонял на весь дом. И спустя определенное время, хряка пришли забирать. Подогнали клетку, открыли дверь и отуда вывалился ОН. Огромны, прибавивший 30 кг, розовый, наглый, с утробным хрюком и презрительным прищуром. Батя небрежно рассуждал о том что ему удалось немножко подкормить его, а то свинки у товарища, видимо, недоедают. На знакомого было больно смотреть. Вот это я понимаю прокачал хряка. А вы говорите, лишний час задротили.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426744/rulez" class="up" rel="nofollow" onclick="v('426744',0,0); return false;">+</a>		<span class="rating-o"><span id="v426744" class="rating">3234</span></span>		<a href="/quote/426744/sux" class="down" rel="nofollow" onclick="v('426744',1,0); return false;">&ndash;</a>
+		<a href="/quote/426744/bayan" class="old" id="vb426744" rel="nofollow" onclick="v('426744',2,0); return false;">[:||||:]</a>		<span class="share" id="s426744"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426744', link: 'http://bash.im/quote/426744', title: 'Цитата #426744' });</script></span>										<span class="date">2014-02-11 11:46</span> <a href="/quote/426744" class="id">#426744</a>					</div>
+	<div class="text">ххх: Когда я читала про Робинзона Крузо в институте, то книга мне понравилась. Когда я перечитывала сейчас, то я поняла, что он открыл просто эру твиттера. &quot;Я пошел в лес&quot;. &quot;Я влез на дерево&quot;. &quot;Я сделал лопату&quot;. &quot;Я очень несчастен&quot;. &quot;Я поймал козу&quot;. &quot;Я сделал забор&quot;. &quot;Я глубоко несчастен&quot;, ну и так далее, читать в свете современных реалий - мило.</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426743/rulez" class="up" rel="nofollow" onclick="v('426743',0,0); return false;">+</a>		<span class="rating-o"><span id="v426743" class="rating">2470</span></span>		<a href="/quote/426743/sux" class="down" rel="nofollow" onclick="v('426743',1,0); return false;">&ndash;</a>
+		<a href="/quote/426743/bayan" class="old" id="vb426743" rel="nofollow" onclick="v('426743',2,0); return false;">[:||||:]</a>		<span class="share" id="s426743"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426743', link: 'http://bash.im/quote/426743', title: 'Цитата #426743' });</script></span>										<span class="date">2014-02-11 11:12</span> <a href="/quote/426743" class="id">#426743</a>					</div>
+	<div class="text">&lt;sol`ko&gt; подключали очередную сирену седня. чел звонит, грит, мол ушел с точки - сирена перестала пинговаться<br>&lt;sol`ko&gt; смотрю, линк есть, пинга нет. иди грю обратно, проверяй. звонит с точки, проверяю - пингуется. уходит - не пингуется. возвращается.<br>&lt;sol`ko&gt; далее цитирую: -хммм странно, а если я открою... -пингуется! -а если закрою... -не пингуется!! -открою... -пингуется!!! -закрою... -не пингуется!!!! -мммм открою... -пингуется !!!!! -а если отойду... -прекрасно пингуется! -а еще немного отойду.. - пингуется отлично! -а еще немного... -все пингуется! -БЕЖАААТЬ, БЕЖАААТЬ ОТСЮДААА!!!!! *бросает трубку*<br>&lt;sol`ko&gt; терь мучает вопрос, что он открывал и закрывал...<br></div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426742/rulez" class="up" rel="nofollow" onclick="v('426742',0,0); return false;">+</a>		<span class="rating-o"><span id="v426742" class="rating">3268</span></span>		<a href="/quote/426742/sux" class="down" rel="nofollow" onclick="v('426742',1,0); return false;">&ndash;</a>
+		<a href="/quote/426742/bayan" class="old" id="vb426742" rel="nofollow" onclick="v('426742',2,0); return false;">[:||||:]</a>		<span class="share" id="s426742"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426742', link: 'http://bash.im/quote/426742', title: 'Цитата #426742' });</script></span>										<span class="date">2014-02-11 11:11</span> <a href="/quote/426742" class="id">#426742</a>					</div>
+	<div class="text">dudnikov_dv: Мы с женой вот этим летом когда покупали квартиру, хозяин клялся что квартира оооочень теплая. Еще тогда меня смутил градусник, висящий на стене возле холодильника с градуировкой от МИНУС 30. Сууука!!!</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426741/rulez" class="up" rel="nofollow" onclick="v('426741',0,0); return false;">+</a>		<span class="rating-o"><span id="v426741" class="rating">1853</span></span>		<a href="/quote/426741/sux" class="down" rel="nofollow" onclick="v('426741',1,0); return false;">&ndash;</a>
+		<a href="/quote/426741/bayan" class="old" id="vb426741" rel="nofollow" onclick="v('426741',2,0); return false;">[:||||:]</a>		<span class="share" id="s426741"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426741', link: 'http://bash.im/quote/426741', title: 'Цитата #426741' });</script></span>										<span class="date">2014-02-11 11:11</span> <a href="/quote/426741" class="id">#426741</a>					</div>
+	<div class="text">xxx: Если Иваново - город невест, то Ватикан - страна отцов</div>
+	</div>	 
+	 
+	<div class="quote">
+	<div class="actions">
+								<a href="/quote/426740/rulez" class="up" rel="nofollow" onclick="v('426740',0,0); return false;">+</a>		<span class="rating-o"><span id="v426740" class="rating">4251</span></span>		<a href="/quote/426740/sux" class="down" rel="nofollow" onclick="v('426740',1,0); return false;">&ndash;</a>
+		<a href="/quote/426740/bayan" class="old" id="vb426740" rel="nofollow" onclick="v('426740',2,0); return false;">[:||||:]</a>		<span class="share" id="s426740"><span class="ph">Поделиться</span><script>new Ya.share({ elementStyle: y1, popupStyle: y2, element: 's426740', link: 'http://bash.im/quote/426740', title: 'Цитата #426740' });</script></span>										<span class="date">2014-02-11 10:45</span> <a href="/quote/426740" class="id">#426740</a>					</div>
+	<div class="text">Диалог в on-line консультанте одного из интернет-магазинов компьютерной техники:<br><br>Сайт: Здравствуйте! Оператор Оксана быстро ответит на Ваши вопросы!<br>Клиент: привет, это секс знакомства?<br>Сайт: Диалог передан оператору Николай<br>Сайт: Именно, будем знакомиться?</div>
+	</div>	 
+	 
+
+
+<div class="pager"><form method="post" action="/index"><span class="current"><input type="text" name="page" class="page" pattern="[0-9]+" numeric="integer" min="1" max="894" value="894" /></span><a href="/index/893"><span class="arr">&rarr;</span><span>893</span></a><a href="/index/892"><span>892</span></a><span>&middot;&middot;&middot;</span><a href="/index/1"><span>начало</span></a></form></div>
+
+
+	<div class="inside"><div class="submenu">
+	<span class="title">Цитаты:</span>
+	<div class="options">
+		<span class="nowrap"><a href="/" class="current" id="menu-index">новые</a>
+		<a href="/random">случайные</a>
+		<a href="/best">лучшие</a>
+		<a href="/byrating">по рейтингу</a></span>
+		<span class="nowrap"><a href="/abyss">Бездна</a>
+		<a href="/abysstop">топ Бездны</a>
+		<a href="/abyssbest" id="menu-abyssbest">лучшее Бездны</a></span>
+		<a href="/add" class="add last">добавить</a>
+			</div>
+	</div></div>
+	<div id="footer">
+				<div class="counters">
+			<!--LiveInternet logo--><a href="http://www.liveinternet.ru/click" target=_blank><img src="http://counter.yadro.ru/logo?15.1" border=0 title="LiveInternet" alt="" width=88 height=31></a><!--/LiveInternet-->
+			<!--Rating@Mail.ru LOGO--><a target=_top href="http://top.mail.ru/jump?from=901403"><img src="http://top.list.ru/counter?id=901403;t=49;l=1" border=0 height=31 width=88 alt="Рейтинг@Mail.ru"/></a><!--/LOGO-->
+			<a href="http://www.yandex.ru/cy?base=0&host=bash.im"><img src="http://www.yandex.ru/cycounter?bash.im" width="88" height="31" alt="Индекс Цитирования Яndex" border="0"></a>
+					</div>
+		<p>Идея проекта &copy; bash.org.</p>
+		<p>Реализация и плюшки &copy; 2004—2014, команда bash.im.</p>
+		<p>Использование сайта подразумевает согласие с&nbsp;<a href="/eula">пользовательским соглашением</a>. <b>18+</b></p>
+		<p><a href="http://lolwut.it/bash.org.ru.html">Информация для рекламодателей</a>. По&nbsp;другим&nbsp;поводам: <a href="&#109;&#097;&#105;&#108;&#116;&#111;&#058;%20&#115;%75%70%70&#111;%72&#116;&#064;&#098;&#097;%73&#104;%2e%6f%72&#103;%2e&#114;%75">&#115;&#117;&#112;&#112;&#111;&#114;&#116;@&#098;&#097;&#115;&#104;&#046;&#111;&#114;&#103;&#046;&#114;&#117;</a>.</p>
+
+		<div style="clear: both;"></div>
+	</div>
+
+</div>
+
+
+<!--Rating@Mail.ru COUNTER--><script language="JavaScript" type="text/javascript"><!--
+d=document;var a='';a+=';r='+escape(d.referrer)
+js=10//--></script><script language="JavaScript1.1" type="text/javascript"><!--
+a+=';j='+navigator.javaEnabled()
+js=11//--></script><script language="JavaScript1.2" type="text/javascript"><!--
+s=screen;a+=';s='+s.width+'*'+s.height
+a+=';d='+(s.colorDepth?s.colorDepth:s.pixelDepth)
+js=12//--></script><script language="JavaScript1.3" type="text/javascript"><!--
+js=13//--></script><script language="JavaScript" type="text/javascript"><!--
+d.write('<img src="http://top.list.ru/counter'+
+'?id=901403;js='+js+a+';rand='+Math.random()+
+'" height=1 width=1/>')
+if(11<js)d.write('<'+'!-- ')//--></script><noscript><img
+src="http://top.list.ru/counter?js=na;id=901403"
+height=1 width=1 alt=""/></noscript><script language="JavaScript" type="text/javascript"><!--
+if(11<js)d.write('--'+'>')//--></script><!--/COUNTER-->
+
+<!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<img src='http://counter.yadro.ru/hit?r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' width=1 height=1 alt=''>")//--></script><!--/LiveInternet-->
+
+
+<!-- Yandex.Metrika counter non-mobile --><script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter18640348 = new Ya.Metrika({id:18640348, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="//mc.yandex.ru/watch/18640348" style="position:absolute; left:-9999px;" alt="" /></div></noscript><!-- /Yandex.Metrika counter -->
+
+
+</body>
+</html>
